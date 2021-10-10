@@ -3,12 +3,12 @@
 Currently implemented:
 
 * [ERC20: Token Standard](https://eips.ethereum.org/EIPS/eip-20)
-* [ERC165: Standard Interface Detection](https://eips.ethereum.org/EIPS/eip-165), several [interface IDs](https://github.com/metachris/eth-go-bindings/blob/master/erc165/interfaceids.go)
+* [ERC165: Standard Interface Detection](https://eips.ethereum.org/EIPS/eip-165), several [interface IDs](https://github.com/snarkdotart/eth-go-bindings/blob/master/erc165/interfaceids.go)
 * [ERC721: Non-Fungible Token Standard (NFT)](https://eips.ethereum.org/EIPS/eip-721) with [ERC721 Metadata](https://docs.openzeppelin.com/contracts/4.x/api/token/erc721#IERC721Metadata) and [ERC721 Enumerable](https://docs.openzeppelin.com/contracts/4.x/api/token/erc721#IERC721Enumerable) extensions.
 * [ERC777: Token Standard](https://eips.ethereum.org/EIPS/eip-777)
 * [ERC1155: Multi Token Standard](https://eips.ethereum.org/EIPS/eip-1155)
 
-Example usage: [examples/erc20-erc721.go](https://github.com/metachris/eth-go-bindings/blob/master/examples/erc20-erc721.go)
+Example usage: [examples/erc20-erc721.go](https://github.com/snarkdotart/eth-go-bindings/blob/master/examples/erc20-erc721.go)
 
 Notes:
 
@@ -36,8 +36,8 @@ import (
 
     "github.com/ethereum/go-ethereum/common"
     "github.com/ethereum/go-ethereum/ethclient"
-    "github.com/metachris/eth-go-bindings/erc165"
-    "github.com/metachris/eth-go-bindings/erc721"
+    "github.com/snarkdotart/eth-go-bindings/erc165"
+    "github.com/snarkdotart/eth-go-bindings/erc721"
 )
 
 func main() {
@@ -72,7 +72,7 @@ func main() {
 
 ## Smart contracts & building them
 
-Sources: https://github.com/metachris/eth-go-bindings/tree/master/contracts
+Sources: https://github.com/snarkdotart/eth-go-bindings/tree/master/contracts
 
 Building:
 

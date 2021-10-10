@@ -405,6 +405,20 @@ func (_Erc721 *Erc721CallerSession) Symbol() (string, error) {
 	return _Erc721.Contract.Symbol(&_Erc721.CallOpts)
 }
 
+// TokenColor is a free data retrieval call binding the contract method.
+func (_Erc721 *Erc721Caller) TokenColor(opts *bind.CallOpts, tokenId *big.Int) (uint, error) {
+	var out []interface{}
+	err := _Erc721.contract.Call(opts, &out, "tokenColor", tokenId)
+
+	if err != nil {
+		return *new(uint), err
+	}
+
+	out0 := *abi.ConvertType(out[0], new(uint)).(*uint)
+
+	return out0, err
+}
+
 // TokenURI is a free data retrieval call binding the contract method 0xc87b56dd.
 //
 // Solidity: function tokenURI(uint256 tokenId) view returns(string)

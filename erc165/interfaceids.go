@@ -1,7 +1,7 @@
 // https://eips.ethereum.org/EIPS/eip-165 interface IDs
 // Used for ERC721 supportsInterface call.
 //
-// https://github.com/metachris/eth-go-bindings
+// https://github.com/snarkdotart/eth-go-bindings
 package erc165
 
 var (

@@ -1,4 +1,4 @@
-module github.com/metachris/eth-go-bindings
+module github.com/snarkdotart/eth-go-bindings
 
 go 1.16
 

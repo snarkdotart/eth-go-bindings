@@ -7,9 +7,9 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
 
-	"github.com/metachris/eth-go-bindings/erc165"
-	"github.com/metachris/eth-go-bindings/erc20"
-	"github.com/metachris/eth-go-bindings/erc721"
+	"github.com/snarkdotart/eth-go-bindings/erc165"
+	"github.com/snarkdotart/eth-go-bindings/erc20"
+	"github.com/snarkdotart/eth-go-bindings/erc721"
 )
 
 func Perror(err interface{}) {
